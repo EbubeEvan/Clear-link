@@ -8,7 +8,7 @@ const FAQ = () => {
         <div>
           <p className='text-sm text-blue-700 font-bold'>Support</p>
           <h3 className='text-gray-800 text-3xl font-bold mt-[1.3rem] mb-[1.3rem]'>FAQs</h3>
-          <p className='text-gray-500'>Everything you need to know about the product<br/> and billing. Can't find the answer you're looking<br/> for? Please chat to our friendly team.</p>
+          <p className='text-gray-500'>Everything you need to know about the product<br/> and billing. Can&apos;t find the answer you're looking<br/> for? Please chat to our friendly team.</p>
         </div>
         <div>
           <div className="mb-[3rem]">
@@ -18,9 +18,9 @@ const FAQ = () => {
           <div>
             {
               FAQs.map((faq, index) => (
-                <div className="flex flex-col md:flex-row md:justify-between mb-[2rem] md:mb-[3rem]">
+                <div className="flex flex-col md:flex-row md:justify-between mb-[2rem] md:mb-[3rem]" key={index}>
                   <p className="text-gray-900 font-bold">{faq.question}</p>
-                  <Image src={faq.icon} alt="drop-down" width={20} height={20} key={index}/>
+                  <Image src={faq.icon} alt="drop-down" width={20} height={20}/>
                 </div>
               ))
             }

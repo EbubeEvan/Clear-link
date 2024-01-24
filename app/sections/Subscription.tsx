@@ -11,8 +11,8 @@ const Subscription = () => {
           <div className="mt-[2rem]">
             {
               subscribe.map((sub, index) => (
-                <div className="flex mb-[0.7rem]">
-                  <Image src={sub.icon} alt="icon" width={30} height={30} key={index}/>
+                <div className="flex mb-[0.7rem]" key={index}>
+                  <Image src={sub.icon} alt="icon" width={30} height={30}/>
                   <p className="text-gray-600 ml-2">{sub.title}</p>
                 </div>
               ))

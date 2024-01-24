@@ -20,8 +20,8 @@ const Features = () => {
           <div className="max-w-[40rem] grid md:grid-cols-2 gap-y-[2rem] gap-x-[1.5rem]">
             {
               featureSet.map((feature, index) => (
-                <article className="md:max-w-[20rem]">
-                  <Image src={feature.icon} alt="feature" width={20} height={20} key={index} className="mb-[2rem]"/>
+                <article key={index} className="md:max-w-[20rem]">
+                  <Image src={feature.icon} alt="feature" width={20} height={20} className="mb-[2rem]"/>
                   <h3 className="font-bold text-lg mb-[0.7rem]">{feature.heading}</h3>
                   <p>{feature.text}</p>
                 </article>
