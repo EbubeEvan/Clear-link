@@ -4,7 +4,7 @@ import { subscribe } from "../data"
 
 const Subscription = () => {
   return (
-    <section className='pt-[1rem] pb-[5rem] md:pl-[2rem]'>
+    <section className='mt-[-2rem] md:mt-0 md:pt-[1rem] pb-[5rem] md:pl-[2rem]'>
       <div className="flex flex-col md:flex-row gap-y-[2rem] gap-x-[10rem]">
         <div>
           <h3 className='text-gray-900 font-bold text-3xl'>Ready to clear the path to<br/> perfect communication?</h3>

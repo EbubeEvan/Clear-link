@@ -32,18 +32,18 @@ const Testimonials = () => {
             <br /> top-notch security make it
             <br /> essential for our team.
           </p>
-          <div className="flex justify-between max-w-[30rem] h-10">
+          <div className="flex max-w-[30rem] h-10">
             <Image
               src="/avatars/Avatar (5).png"
               alt="avatar"
               width={30}
               height={30}
             />
-            <div className="md:ml-[-8rem]">
+            <div className="ml-2">
               <p className="text-gray-900 font-bold">Sarah Thompson</p>
               <p>Project Manager, Shopify</p>
             </div>
-            <div className="flex gap-5 md:gap-10 mt-4">
+            <div className="flex gap-5 md:gap-10 mt-4 ml-[5rem]">
               <Image
                 src="/icons/arrow-left.svg"
                 alt="arrow-left"

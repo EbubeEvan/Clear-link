@@ -8,7 +8,7 @@ import Subscription from "./sections/Subscription";
 
 export default function Home() {
   return (
-    <div className="p-[2rem] md:p-[6rem]">
+    <div className="pt-[2rem] pl-[2rem] pr-[2rem] pb-0 md:p-[6rem]">
       <Header />
       <main>
         <Hero/>
