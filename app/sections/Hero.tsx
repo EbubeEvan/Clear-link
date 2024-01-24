@@ -88,6 +88,7 @@ const Hero = () => {
                   alt="memojiIcon"
                   width={15}
                   height={15}
+                  key={index}
                 />
               ))}
             </div>
