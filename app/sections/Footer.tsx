@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="text-sm text-gray-500 max-w-[60rem] md:ml-[4rem]">
           <div className="grid grid-cols-4 mb-[1rem] md:gap-x-[4rem]">
             {footerhead.map((footer, index) => (
-              <h5 key={index}>{footer}</h5>
+              <p key={index}>{footer}</p>
             ))}
           </div>
           <div className="grid grid-cols-4 gap-y-[1rem] md:gap-x-[4rem]">
