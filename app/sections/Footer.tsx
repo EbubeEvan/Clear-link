@@ -5,7 +5,7 @@ import Copyright from "../components/Copyright";
 
 const Footer = () => {
   return (
-    <footer className="md:pl-[2rem]">
+    <footer className="pb-[2rem] md:pb-0 md:pl-[2rem]">
       <div className="flex flex-col gap-y-[2rem] md:flex-row">
         <div className="text-sm text-gray-600">
           <div className="flex gap-2">

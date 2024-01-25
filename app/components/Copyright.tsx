@@ -4,7 +4,7 @@ import Image from "next/image"
 const Copyright = () => {
   return (
     <div className="pt-[3rem]">
-        <div className="flex flex-col md:flex-row gap-y-[1rem] justify-between">
+        <div className="flex flex-col-reverse md:flex-row gap-y-[1rem] justify-between">
             <p className="text-gray-500 text-sm">
             © 2023 ClearLink. All rights reserved.
             </p>
