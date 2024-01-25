@@ -23,7 +23,7 @@ const MenuOverlay = () => {
           </li>
         ))}
       </ul>
-      <div className="flex flex-col mt-4 gap-2">
+      <div className="flex flex-col mt-4 gap-4">
         <Link href="/">
         Talk to sales
         </Link>

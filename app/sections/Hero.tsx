@@ -81,7 +81,7 @@ const Hero = () => {
                 />
               ))}
             </div>
-            <div className="flex mt-[2rem] mb-[1rem] gap-[1rem] ml-[3.3rem] md:ml-0 lg:ml-[4rem] max-[280px]:ml-1 ">
+            <div className="flex mt-[2rem] mb-[1rem] gap-[1rem] justify-center">
               {memojiIcons.map((memojiIcon, index) => (
                 <Image
                   src={memojiIcon}
@@ -95,7 +95,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="flex justify-center">
       <SocialProof />
+      </div>
     </section>
   );
 };

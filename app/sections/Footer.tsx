@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
           <Link href="/" className="bg-white">
             <Image
-              src="/icons/google-play-logo.jpg"
+              src="/icons/googleplay.png"
               alt="apple store"
               width={120}
               height={120}
