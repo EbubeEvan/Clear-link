@@ -82,7 +82,7 @@ export const featureSet = [
   },
 ];
 
-export const testimonialImage1 = ["/images/image.png", "/images/Image (1).png"];
+export const testimonialImage1 = ["/images/black boy.png", "/images/Image (1).png"];
 
 export const testimonialImage2 = [
   "/images/Image (2).png",

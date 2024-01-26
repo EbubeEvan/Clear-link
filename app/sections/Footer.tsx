@@ -30,7 +30,7 @@ const Footer = () => {
               <p key={index}>{footer}</p>
             ))}
           </div>
-          <div className="grid grid-cols-4 gap-y-[1rem] md:gap-x-[4rem]">
+          <div className="grid grid-cols-4 gap-y-[1rem] md:gap-x-[4rem] font-bold">
             {footerLinks.map((footer, index) => (
               <Link href="/" key={index}>
                 {footer}
