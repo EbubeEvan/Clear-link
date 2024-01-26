@@ -5,7 +5,7 @@ import { testimonialImage1, testimonialImage2 } from "../data";
 const Testimonials = () => {
   return (
     <section className="p-[2rem] mt-[4rem]">
-      <div className="flex flex-col md:flex-row gap-y-[5rem] max-[280px]:gap-y-[7rem] gap-x-[6rem]">
+      <div className="flex flex-col md:flex-row gap-y-[8rem] max-[280px]:gap-y-[7rem] gap-x-[6rem]">
         <div className="md:pr-[4rem]">
           <Image
             src="/logos/Shopify.com svg.svg"
