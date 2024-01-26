@@ -22,8 +22,8 @@ const Features = () => {
               featureSet.map((feature, index) => (
                 <article key={index} className="md:max-w-[20rem]">
                   <Image src={feature.icon} alt="feature" width={20} height={20} className="mb-[2rem]"/>
-                  <h3 className="font-bold text-lg mb-[0.7rem]">{feature.heading}</h3>
-                  <p>{feature.text}</p>
+                  <h3 className="font-bold text-lg mb-[0.7rem] text-gray-900">{feature.heading}</h3>
+                  <p className="text-gray-600">{feature.text}</p>
                 </article>
               ))
             }
