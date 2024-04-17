@@ -41,13 +41,13 @@ const Footer = () => {
             ))}
           </div>
           <div className="flex flex-col gap-5 font-bold">
-            {footer3.map((footer) => (
-              <p>{footer}</p>
+            {footer3.map((footer , index) => (
+              <p key={index}>{footer}</p>
             ))}
           </div>
           <div className="flex flex-col gap-5 font-bold">
-            {footer4.map((footer) => (
-              <p>{footer}</p>
+            {footer4.map((footer , index) => (
+              <p key={index}>{footer}</p>
             ))}
           </div>
         </div>
