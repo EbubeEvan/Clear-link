@@ -31,13 +31,13 @@ const Footer = () => {
         </div>
         <div className="text-sm text-gray-500 max-w-[60rem] md:ml-[4rem] grid grid-cols-2 md:grid-cols-4 gap-x-16 gap-y-10">
           <div className="flex flex-col gap-5 font-bold">
-            {footer1.map((footer) => (
-              <p>{footer}</p>
+            {footer1.map((footer , index) => (
+              <p key={index}>{footer}</p>
             ))}
           </div>
           <div className="flex flex-col gap-5 font-bold">
-            {footer2.map((footer) => (
-              <p>{footer}</p>
+            {footer2.map((footer , index) => (
+              <p key={index}>{footer}</p>
             ))}
           </div>
           <div className="flex flex-col gap-5 font-bold">
