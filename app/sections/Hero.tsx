@@ -8,8 +8,8 @@ import SocialProof from "../components/SocialProof";
 const Hero = () => {
   return (
     <section className="w-full h-full pt-[5rem] pb-[5rem]">
-      <div className="flex flex-col md:flex-row md:gap-[5rem] lg:gap-[8rem]">
-        <div>
+      <div className="flex flex-col md:flex-row md:gap-[10%]">
+        <div className="w-full md:w-[45%]">
           <h1 className="text-gray-800 text-3xl md:text-[3rem] font-bold leading-[2rem] md:leading-[3.5rem]">
             Uniting the world, <br /> one video call at a time
           </h1>
@@ -66,7 +66,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div >
+        <div className="w-full md:w-[45%]">
           <div className="bg-blue-100 mt-[3rem] md:mt-0 max-w-[22rem] p-[1rem] rounded-md shadow-xl shadow-gray-300">
             <div className="grid grid-cols-3 gap-[0.8rem]">
               {memojis.map((memoji, index) => (

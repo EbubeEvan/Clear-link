@@ -5,8 +5,8 @@ import { subscribe } from "../data"
 const Subscription = () => {
   return (
     <section className='mt-[-2rem] md:mt-0 md:pt-[1rem] pb-[5rem] md:pl-[2rem]'>
-      <div className="flex flex-col md:flex-row gap-y-[2rem] gap-x-[10rem]">
-        <div>
+      <div className="flex flex-col md:flex-row gap-y-[4rem] gap-x-[10%]">
+        <div className="w-full md:w-[45%]">
           <h3 className='text-gray-900 font-bold text-3xl'>Ready to clear the path to<br/> perfect communication?</h3>
           <div className="mt-[2rem]">
             {
@@ -27,7 +27,7 @@ const Subscription = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="w-full md:w-[45%]">
           <Image src='/images/Screen mockup (REPLACE FILL).png' alt="screen" width={500} height={500}/> 
         </div>
       </div>

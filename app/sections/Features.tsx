@@ -4,8 +4,8 @@ import Image from "next/image";
 const Features = () => {
   return (
     <section className="md:p-[2rem]">
-      <div className="flex flex-col md:flex-row gap-x-[5rem] gap-y-[2rem]">
-        <div>
+      <div className="flex flex-col md:flex-row gap-x-[20%] gap-y-[3rem]">
+        <div className="w-full md:w-[45%]">
           <div>
             <p className="text-blue-700 text-sm font-bold">
               The ClearLink Advantage
@@ -29,7 +29,7 @@ const Features = () => {
             }
           </div>
         </div>
-        <div className="md:mt-[5rem]">
+        <div className="md:mt-[5rem] w-full md:w-[45%]">
           <Image src='/icons/Hand-drawn arrow.svg' alt="arrow" width={200} height={200} className="relative bottom-[-1rem]"/>
           <Image src='/images/Rectangle 1.png' alt="picture rectangle" width={350} height={350}/>
         </div>

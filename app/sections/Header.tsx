@@ -12,12 +12,15 @@ const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className={!navbarOpen ? "fixed mx-auto top-[2rem] left-0 right-0 z-10 bg-gray-300 w-[95%] rounded-full" : "fixed mx-auto top-[2rem] left-0 right-0 z-10 bg-gray-300 w-[95%]"}>
+    <nav
+      className={
+        !navbarOpen
+          ? "fixed mx-auto top-[2rem] left-0 right-0 z-10 bg-gray-300 w-[95%] rounded-full"
+          : "fixed mx-auto top-[2rem] left-0 right-0 z-10 bg-gray-300 w-[95%]"
+      }
+    >
       <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-4 py-2 max-[280px]:px-2">
-        <Link
-          href={"/"}
-          className="text-xl font-semibold flex"
-        >
+        <Link href={"/"} className="text-xl font-semibold flex">
           <Image
             src="icons/clear-link.svg"
             alt="company logo"
@@ -64,13 +67,17 @@ const Header = () => {
           </ul>
         </div>
         <div className="hidden lg:block">
-            <Link href='/'>
-              <button className="bg-white text-gray-900 border border-gray-400 px-2 py-2 rounded-full">Talk to sales</button>
-            </Link>
-            <Link href='/'>
-              <button className="text-white bg-blue-700 px-2 py-2 rounded-full ml-2">Sign up for free</button>
-            </Link>
-          </div>
+          <Link href="/">
+            <button className="bg-white text-gray-900 border border-gray-400 px-2 py-2 rounded-full">
+              Talk to sales
+            </button>
+          </Link>
+          <Link href="/">
+            <button className="text-white bg-blue-700 px-2 py-2 rounded-full ml-2">
+              Sign up for free
+            </button>
+          </Link>
+        </div>
       </div>
       {navbarOpen ? <MenuOverlay /> : null}
     </nav>
