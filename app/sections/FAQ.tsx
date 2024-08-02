@@ -1,5 +1,4 @@
 import { FAQs } from "../data";
-import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
@@ -37,7 +36,7 @@ const FAQ = () => {
               <br /> webinars, ensuring you have the right fit for your needs.
             </p>
           </div>
-          <Accordion type="single" collapsible>
+          <Accordion type="single" collapsible className="custom:w-[35rem] w-full">
             {FAQs.map((faq, index) => (
               <div key={index}>
                 <AccordionItem value={`item-${index}`} >
