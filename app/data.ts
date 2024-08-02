@@ -93,23 +93,28 @@ export const testimonialImage2 = [
 export const FAQs = [
   {
     question: "Can I use ClearLink on multiple devices?",
+    answer: "Yes you can",
     icon: "/icons/plus-circle.svg",
   },
   {
     question:
       "Is ClearLink compatible with other video conferencing platforms?",
+      answer: "Yes it is",
     icon: "/icons/plus-circle.svg",
   },
   {
     question: "How does ClearLink ensure the security of my video conferences?",
+    answer : "Through data encrtyption",
     icon: "/icons/plus-circle.svg",
   },
   {
     question: "Do I need to download any software to use ClearLink?",
+    answer : "You can download the software or use it on the web",
     icon: "/icons/plus-circle.svg",
   },
   {
     question: "What kind of customer support does ClearLink provide?",
+    answer: "You can reach out to our customer support via email",
     icon: "/icons/plus-circle.svg",
   },
 ];
